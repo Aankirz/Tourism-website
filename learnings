@@ -1,0 +1,9 @@
+//  Learnings
+/*
+  1. classname::selection{
+    background-color: #fff;
+    color: #000; // so it shows color of text and bg of text while selecting
+  }
+
+
+*/
