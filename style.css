@@ -52,3 +52,37 @@ header .navbar a{
     color: #fff;
     margin: 0 1rem;
 }
+header .icons i{
+    font-size: 2.5rem;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+header .icons i:hover{
+    color: var(--orange);
+}
+
+header .search-bar-container{
+    position: absolute;
+    top: 100%;left: 0;right: 2rem;
+    padding: 1.5rem 2rem;
+    background: #333;
+    display: flex;
+    align-items: center;
+    z-index: 1001;
+    clip-path: polygon( 0 0, 100% 0, 100% 0, 0% 0);
+}
+
+header .search-bar-container #search-bar{
+   width: 100%;
+   padding: 1rem;
+   text-transform: none;
+   border-radius: .5rem;
+}
+header .search-bar-container label{
+    color: #fff;
+    cursor: pointer;
+    font-size: 3rem;
+    margin-left: 1.5rem;
+    
+}
