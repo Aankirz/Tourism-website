@@ -19,6 +19,7 @@
 }
 html{
     font-size: 62.5%;
+    height: 200vh;
     overflow-x: hidden;
     scroll-padding-top:6rem;
     scroll-behavior: smooth;
@@ -43,9 +44,13 @@ header .logo{
     color:#fff;
     text-transform:uppercase;
     font-weight:bold;
+    letter-spacing:.1rem;
+    transform: translateX(40px);
 }
 header .logo span{
     color:var(--orange);
+    font-size:2.8 rem;
+
 }
 header .navbar a{
     font-size: 2rem;
@@ -56,7 +61,8 @@ header .icons i{
     font-size: 2.5rem;
     color: #fff;
     cursor: pointer;
-    margin-right: 2rem;
+   
+    margin-right: 5rem;
 }
 header .icons i:hover{
     color: var(--orange);
@@ -67,16 +73,24 @@ header .search-bar-container{
     top: 100%;left: 0;right: 2rem;
     padding: 1.5rem 2rem;
     background: #333;
+    border-top: .1rem solid rgba(255,255,255,.2);
+
     display: flex;
     align-items: center;
     z-index: 1001;
-    clip-path: polygon( 0 0, 100% 0, 100% 0, 0% 0);
+   clip-path: polygon(0 0, 100% 0, 100% 0%, 100% 0,0 0);
+    transition: all .4s ease-in-out;
 }
+header .search-bar-container.active{
+    clip-path: polygon(0 0, 100% 0, 100% 0%, 100% 100%,0 100%);
 
+}
 header .search-bar-container #search-bar{
    width: 100%;
    padding: 1rem;
    text-transform: none;
+   color: #333;
+   font-size: 1.7 rem;
    border-radius: .5rem;
 }
 header .search-bar-container label{
@@ -85,4 +99,100 @@ header .search-bar-container label{
     font-size: 3rem;
     margin-left: 1.5rem;
     
+}
+
+/* Header Ends */
+
+/* Login Form Starts */
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    background: var(--orange);
+    color: #fff;
+    padding: .8rem 3rem;
+    border:.2rem solid var(--orange);
+    cursor: pointer;
+    font-size: 1.7rem;
+
+}
+.btn:hover{
+    background: #fff;
+    color: var(--orange);
+}
+.login-form-container{
+    position:fixed;
+    top:-120%;left:0;
+    min-height:100vh;
+    z-index: 99999999;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) .4s ease-in-out;
+}
+
+.login-form-container.showLogin{
+    top:0;
+}
+
+.login-form-container form{
+    margin: 2rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: #fff;
+    width: 50rem;
+}
+.login-form-container form h3{
+  font-size:x-large;
+  text-align: center;
+  text-transform: unset;
+  padding: 1rem 0;
+   
+}
+.login-form-container form .box{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.7rem;
+    color: #333;
+    margin: 1rem 0;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    /* text-transform: none; */
+}
+.login-form-container form .box:focus{
+    border: 2px solid var(--orange);
+}
+
+.login-form-container #remember{
+    margin: 2rem 0rem;
+    cursor: pointer;
+}
+.login-form-container label{
+    font-size: 1.5rem;
+    padding: 2px;
+    
+}
+.login-form-container form p{
+   font-size: 1.5rem;
+}
+.login-form-container a{
+   padding: 2px 0;
+   color: var(--orange);
+
+}
+.login-form-container a:hover{
+    color: rgb(17, 0, 248);
+    text-decoration: underline;
+}
+.login-form-container form .btn{
+    display: block;
+    width:100%;
+    margin: 10px 0px;
+}
+.login-form-container #form-close{
+ position: absolute;
+ top: 2rem;right: 3rem;
+ font-size: 5rem;
+ color: #fff;  
+ cursor: pointer;
 }
