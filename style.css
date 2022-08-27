@@ -325,6 +325,17 @@ header .search-bar-container label{
     background: var(--orange);
 }
 
+#vid-back{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover; 
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: -5;
+}
+
 .book .row{
     display: flex;
     flex-wrap: wrap;

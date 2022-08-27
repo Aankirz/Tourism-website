@@ -9,6 +9,7 @@ let signUpMoney=document.querySelector('#signUpMoney');
 let cancelBtn=document.querySelector('#form-close');
 
 let videoBtn=document.querySelector('.controls');
+let videoBackground = document.getElementById("vid-back")
 
 let menu=document.querySelector('#menu-bar');
 let navbar=document.querySelector('.navbar');
@@ -49,6 +50,12 @@ videoBtn.childNodes.forEach(btn=>{
         document.querySelector('.vid-btn.active').classList.remove('active');
         e.target.classList.add('active');
         let src=btn.getAttribute('data-src');
+        if(src==="./clip-1-Indo.mp4"){
+            console.log("changing to 1st image")
+            videoBackground.src = "./img1.png";
+        }else{
+            videoBackground.src = "./img2.png";
+        }
         document.querySelector('#video-slider').src=src;
     })
 })
