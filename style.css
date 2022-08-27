@@ -462,7 +462,7 @@ header .search-bar-container label{
 
 .earnMoney{
     background-image: linear-gradient(to right bottom, #8ee4ff, #a7eafc, #beeffa, #d4f4f9, #eaf8fa);  
-     height: 90vh;
+    height: 90vh;
 }
 .earnMoney h1{
     color: rgb(245, 245, 245);
@@ -475,8 +475,8 @@ header .search-bar-container label{
     /* margin-top: 10rem; */
 }
 .earnMoney .moneyAnimation{
-    position: relative;
-    transform: translate(68rem,-20rem);
+    position: absolute;
+    transform: translate(68rem,-22rem);
     /* object-fit: cover; */
     /* box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1); */
 
