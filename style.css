@@ -55,14 +55,28 @@ section {
     right: 2rem;
     bottom: 2rem;
     cursor: pointer;
-    padding: 1rem;
-    color: #000;
+
+    background-color: #ffa500;
+    font-size: 16px;
+    padding: 4px 8px;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    z-index: 100;
 }
+
 .moneyBtn{
     position: fixed;
     right: 2rem;
     bottom: 6rem;
     cursor: pointer;
+    background-color: #ffa500;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    z-index: 100;
+}
+.moneyBtn:hover{
+    font-size: 20px;
 }
 .heading {
     text-align: center;
