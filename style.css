@@ -21,8 +21,9 @@
 }
 html{
     font-size: 62.5%;
-    height: 800vh;
+    height: 580vh;
     overflow-x: hidden;
+    
     scroll-padding-top:6rem;
     scroll-behavior: smooth;
 }
@@ -463,6 +464,7 @@ header .search-bar-container label{
 .earnMoney{
     background-image: linear-gradient(to right bottom, #8ee4ff, #a7eafc, #beeffa, #d4f4f9, #eaf8fa);  
     height: 90vh;
+    width: auto;
 }
 .earnMoney h1{
     color: rgb(245, 245, 245);
@@ -475,16 +477,59 @@ header .search-bar-container label{
     /* margin-top: 10rem; */
 }
 .earnMoney .moneyAnimation{
-    position: absolute;
-    transform: translate(68rem,-22rem);
-    /* object-fit: cover; */
-    /* box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1); */
-
+    position: relative;
+right: -65%;
+top: -20%;
+    /* display: none; */
+    /* transform: translate(68rem,-22rem); */
 }
 
-
-
-
+.roles {
+    display: flex;
+    flex-wrap: wrap;
+    height: 90vh;
+    gap: 2rem;
+    background-image: linear-gradient(to right bottom, #99ddf5, #a7e3f7, #b5e8fa, #c3eefc, #d0f3ff);
+    align-items: center;
+    justify-content: center;
+}
+.roles .box{
+    /* flex: 1 1 30rem; */
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    padding: 3rem;
+    font-size: 1.5rem;
+    background: #fff;
+    text-align: left;
+    height: 55%;
+    width: 25%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.roles .box .animation{
+    position: relative;
+    left: 8%; 
+    object-fit: cover;
+}
+.roles .box .moneyOptions{
+    cursor: pointer;
+    margin-top: 1rem;
+    text-align: left;
+    font-weight: bolder;
+    letter-spacing: .1rem;
+    background: none;
+}
+.roles .tag{
+    font-size: 2rem;
+    color: rgb(2, 1, 86);
+    position: relative;
+    top: -5rem;
+    left: 5rem;
+    align-self: center;
+}
 
 
 
@@ -492,12 +537,17 @@ header .search-bar-container label{
 @media(max-width:1200px){
     html{
         font-size: 55%;
-        height: 800vh;
+        
         overflow-x: hidden;
         scroll-padding-top:6rem;
         scroll-behavior: smooth;
     }
-    
+    .roles .box{
+        flex: 1 1 20rem;
+    }
+    .roles .tag{
+        font-size: 1.5rem;
+    }
 }
 @media(max-width:991px){
    header{

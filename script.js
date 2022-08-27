@@ -3,7 +3,7 @@ let searchBar=document.querySelector('.search-bar-container');
 
 let loginForm=document.querySelector('.login-form-container');
 let user=document.querySelector('#login-btn');
-
+let money=document.querySelector('.moneyOptions');
 let cancelBtn=document.querySelector('#form-close');
 
 let videoBtn=document.querySelector('.controls');
@@ -25,16 +25,18 @@ searchBtn.addEventListener('click',()=>{
     searchBtn.classList.toggle('fa-times')
     searchBar.classList.toggle('active');
 })
-// .toggle active means now this class active will get added.
 
 user.addEventListener('click',()=>{
+    loginForm.classList.toggle('showLogin');
+})
+money.addEventListener('click',()=>{
     loginForm.classList.toggle('showLogin');
 })
 cancelBtn.addEventListener('click',()=>{
     loginForm.classList.remove('showLogin');
 })
 
-// How to toggle classes in buttons
+
 
 videoBtn.childNodes.forEach(btn=>{
     btn.addEventListener('click',(e)=>{
