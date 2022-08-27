@@ -64,7 +64,9 @@ section {
     border-radius: 4px;
     z-index: 100;
 }
-
+.planBtn:hover{
+    font-size: 20px;
+}
 .moneyBtn{
     position: fixed;
     right: 2rem;
