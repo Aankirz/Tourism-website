@@ -4,6 +4,8 @@ let searchBar=document.querySelector('.search-bar-container');
 let loginForm=document.querySelector('.login-form-container');
 let user=document.querySelector('#login-btn');
 let money=document.querySelector('.moneyOptions');
+let signUpMoney=document.querySelector('#signUpMoney');
+
 let cancelBtn=document.querySelector('#form-close');
 
 let videoBtn=document.querySelector('.controls');
@@ -32,6 +34,10 @@ user.addEventListener('click',()=>{
 money.addEventListener('click',()=>{
     loginForm.classList.toggle('showLogin');
 })
+signUpMoney.addEventListener('click',()=>{
+    loginForm.classList.toggle('showLogin');
+})
+
 cancelBtn.addEventListener('click',()=>{
     loginForm.classList.remove('showLogin');
 })

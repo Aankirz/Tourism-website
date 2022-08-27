@@ -469,19 +469,49 @@ header .search-bar-container label{
     width: auto;
 }
 .earnMoney h1{
+    position: relative;
     color: rgb(245, 245, 245);
+    left: -5%;
     font-size: 8rem;
     line-height: 9.6rem;
+    text-align: left;
     letter-spacing: .1rem;
     font-family: 'Poppins', sans-serif;
-    transform: translateX(-10%);
+    /* transform: translateX(-10%); */
     text-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.1);
     /* margin-top: 10rem; */
 }
-.earnMoney .moneyAnimation{
+.earnMoney h3,h5{
     position: relative;
-right: -65%;
-top: -20%;
+    text-align: left;
+    left: -4%;
+    top: 6%;
+    text-transform: none;
+    font-size: 2.5rem;
+    color: rgb(83, 83, 83);
+}
+.earnMoney h5{
+    top: 12%;
+    font-size: 2.8rem;
+    color: rgb(67, 65, 65);
+}
+.earnMoney button,h4{
+  border-radius: 30px;
+  position: relative;
+  top: 40%;
+  left: -3%;
+}
+.earnMoney button{
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+    left: -4%; 
+    top: 35%;
+}
+.earnMoney .moneyAnimation{
+position: relative;
+
+right: -66%;
+top: -30%;
+
     /* display: none; */
     /* transform: translate(68rem,-22rem); */
 }
