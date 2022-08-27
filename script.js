@@ -8,6 +8,8 @@ let cancelBtn=document.querySelector('#form-close');
 
 let videoBtn=document.querySelector('.vid-btn');
 
+let menu=document.querySelector('#menu-bar');
+let navbar=document.querySelector('.navbar');
 
 
 window.onscroll=function(){
@@ -15,7 +17,10 @@ window.onscroll=function(){
     
     searchBar.classList.remove('active');
 }
-
+menu.addEventListener('click',()=>{
+    menu.classList.toggle('fa-times')
+    navbar.classList.toggle('active');
+})
 searchBtn.addEventListener('click',()=>{
     searchBtn.classList.toggle('fa-times')
     searchBar.classList.toggle('active');
