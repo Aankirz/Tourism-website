@@ -39,7 +39,7 @@ cancelBtn.addEventListener('click',()=>{
 videoBtn.childNodes.forEach(btn=>{
     btn.addEventListener('click',(e)=>{
         console.log(e)
-        document.querySelector('.controls .active').classList.remove('active');
+        document.querySelector('.vid-btn .active').classList.remove('active');
         e.target.classList.add('active');
         let src=btn.getAttribute('data-src');
         document.querySelector('#video-slider').src=src;
