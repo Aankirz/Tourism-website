@@ -57,11 +57,11 @@ section {
     bottom: 2rem;
     cursor: pointer;
 
-    background-color: #ffa500;
+    background-color: #ff8c00;
     font-size: 16px;
-    padding: 4px 8px;
+    padding: 4px 14px;
     color: rgb(255, 255, 255);
-    border-radius: 4px;
+    border-radius: 9999px;
     z-index: 100;
 }
 .planBtn:hover{
@@ -75,11 +75,13 @@ section {
     background-color: #ffa500;
     color: #fff;
     padding: 4px 8px;
-    border-radius: 4px;
+    border-radius: 9999px;
     z-index: 100;
 }
 .moneyBtn:hover{
     font-size: 20px;
+    padding: 4px 12px;
+    border-radius: 9999px;
 }
 .heading {
     text-align: center;
