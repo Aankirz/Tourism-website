@@ -27,3 +27,6 @@ Note: The value attribute cannot be used with <input type="file">.
 
  7. classList: usage of classList is to use one custom class for multiple elements.
  like u can add one custom class to the fetched elm or remove or even toggle(so the particualr class will be added whenver u toggle on or off.)
+ 
+ 8. whenever using two classes for same element to apply styles use "." 
+              class1.class2{}
