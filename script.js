@@ -6,7 +6,7 @@ let user=document.querySelector('#login-btn');
 
 let cancelBtn=document.querySelector('#form-close');
 
-let videoBtn=document.querySelector('.vid-btn');
+let videoBtn=document.querySelector('.controls');
 
 let menu=document.querySelector('#menu-bar');
 let navbar=document.querySelector('.navbar');
@@ -36,10 +36,11 @@ cancelBtn.addEventListener('click',()=>{
 
 // How to toggle classes in buttons
 
-videoBtn.forEach(btn=>{
-    btn.addEventListener('click',()=>{
+videoBtn.childNodes.forEach(btn=>{
+    btn.addEventListener('click',(e)=>{
+        console.log(e)
         document.querySelector('.controls .active').classList.remove('active');
-        btn.classList.add('active');
+        e.target.classList.add('active');
         let src=btn.getAttribute('data-src');
         document.querySelector('#video-slider').src=src;
     })
