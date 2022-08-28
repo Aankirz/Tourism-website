@@ -12,5 +12,5 @@ It is a simple static html site. Open the index.html file and start using the pr
 # Credits
 Ankit Kiran https://www.github.com/aankirz
 <br>
-Ayush Shaw @ayushshaw90 https://www.github.com/ayushshay90
+Ayush Shaw https://www.github.com/ayushshay90
 <br>
