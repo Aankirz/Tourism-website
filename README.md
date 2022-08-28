@@ -1,4 +1,4 @@
-# Wizata
+# Wisata
 ![Wisata](https://github.com/Aankirz/Tourism-website/blob/main/homepage-image.png)
 <p>A village tourism website to experience the heart of rural indonesia.</p>
 <br>
