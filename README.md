@@ -1,6 +1,6 @@
 # Wizata
 
-<p>A rural tourism website.</p>
+<p>A rural tourism website to experience the heart of rural indonesia.</p>
 <br>
 
 # Description
