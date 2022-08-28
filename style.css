@@ -49,7 +49,7 @@ section {
 .navbar .money{
    background-color: #ffa500;
    padding: 1rem;
-   
+   box-shadow: 1px  1px 10px rgba(255, 157, 0, 0.994);
 }
 .planBtn{
     position: fixed;
@@ -395,6 +395,9 @@ header .search-bar-container label{
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
     
 }
+.packages .box-container .box p{
+    text-transform: none;
+}
 .packages .box-container .box:hover{
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
 
@@ -471,6 +474,7 @@ header .search-bar-container label{
     font-size: 1.5rem;
     color: #666; 
     padding: 1rem 0;
+    text-transform: none;
 }
 .services .box-container .box:hover{
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
@@ -553,6 +557,12 @@ top: -30%;
     flex-flow: column;
     justify-content: space-between;
     align-content: space-between;
+}
+.roles .box:hover{
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+}
+.roles .box p{
+    text-transform: none;
 }
 .roles .box .animation{
     position: relative;
