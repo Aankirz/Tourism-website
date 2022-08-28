@@ -10,7 +10,7 @@ Wizata is a village tourism site. We aim to boost the rural economy of Indonesia
 It is a simple static html site. Open the index.html file and start using the project.
 
 # Credits
-Ankit Kiran @aankirz
+Ankit Kiran https://www.github.com/aankirz
 <br>
-Ayush Shaw @ayushshaw90
+Ayush Shaw @ayushshaw90 https://www.github.com/ayushshay90
 <br>
