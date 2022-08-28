@@ -14,7 +14,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-blue?style=for-the-badge&logo=javascript&logoColor=white)
 
 # Description
-Wizata is a village tourism site. We aim to boost the rural economy of Indonesian villages by empowering the villagers and bringing tourists to the remote villages. We collaborate with villagers to provide native accomodation to the tourists. Villagers can list their property in our website. We provide tourists to the villagers and owners of small guest houses of villages. Villagers can even become tour guides or organise cultural festivals for our tourists.
+Wisata is a village tourism site. We aim to boost the rural economy of Indonesian villages by empowering the villagers and bringing tourists to the remote villages. We collaborate with villagers to provide native accommodation to tourists. Villagers can list their property on our website. We provide tourists to the villagers and owners of small guest houses in villages. Villagers can even become tour guides or organise cultural festivals for our tourists.
 
 # How to run the project
 ## 🛠️ Installation Steps
