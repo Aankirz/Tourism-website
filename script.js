@@ -51,7 +51,6 @@ videoBtn.childNodes.forEach(btn=>{
         e.target.classList.add('active');
         let src=btn.getAttribute('data-src');
         if(src==="./clip-1-Indo.mp4"){
-            console.log("changing to 1st image")
             videoBackground.src = "./img1.png";
         }else{
             videoBackground.src = "./img2.png";
