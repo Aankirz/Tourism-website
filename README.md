@@ -18,12 +18,15 @@ git clone https://github.com/aankirz/Tourism-website.git
 2. Open index.html file
 
 
+
+# Project maintainers and contributors
+
+<a href="https://github.com/aankirz/Tourism-website/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=aankirz/Tourism-website" />
+</a>
+
+
+
 ## 📃 License
 
 This project follows the [MIT License](/LICENSE).
-
-# Project maintainers and contributors
-Ankit Kiran https://www.github.com/aankirz
-<br>
-Ayush Shaw https://www.github.com/ayushshay90
-<br>
