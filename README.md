@@ -3,6 +3,14 @@
 <p>A village tourism website to experience the heart of rural indonesia.</p>
 <br>
 
+
+##  🚀 View Live Demo
+<img src="https://img.shields.io/badge/website-up-greene" />
+<pre><center><a href="https://aankirz.github.io/Tourism-website/"><b>Wisata</b></a></center></pre>
+
+## 👨‍💻 Tech Stack
+HTML, CSS, JavaScript
+
 # Description
 Wizata is a village tourism site. We aim to boost the rural economy of Indonesian villages by empowering the villagers and bringing tourists to the remote villages. We collaborate with villagers to provide native accomodation to the tourists. Villagers can list their property in our website. We provide tourists to the villagers and owners of small guest houses of villages. Villagers can even become tour guides or organise cultural festivals for our tourists.
 
