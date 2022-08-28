@@ -1,5 +1,5 @@
 # Wizata
-
+![Wisata](https://github.com/Aankirz/Tourism-website/blob/main/img2.png)
 <p>A rural tourism website to experience the heart of rural indonesia.</p>
 <br>
 
